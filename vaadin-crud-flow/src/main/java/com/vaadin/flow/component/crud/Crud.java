@@ -457,7 +457,7 @@ public class Crud<E> extends Component implements HasSize, HasTheme {
 
     private void clearActiveItem() {
         this.gridActiveItem = null;
-        grid.select(null);
+        grid.deselectAll();
     }
 
     /**
